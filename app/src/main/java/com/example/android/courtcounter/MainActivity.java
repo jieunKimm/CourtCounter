@@ -18,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(0);
     }
 
+    public void reset(View v) {
+        scoreteamA=0;
+        scoreteamB=0;
+        displayForTeamA(scoreteamA);
+        displayForTeamB(scoreteamB);
+    }
     /**
      * Increase the score for Team A by 1 point.
      */
